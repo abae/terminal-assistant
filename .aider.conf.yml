@@ -1,0 +1,11 @@
+# Aider Project Configuration Workspace
+model: claude-3-5-sonnet
+
+# Keep Aider tracking and respecting our core layout definitions automatically
+file:
+  - opinions.md
+  - agents.md
+
+# Guardrails to ensure Aider doesn't blindly edit files outside our intent
+auto-commit: true
+attribute-author: true
